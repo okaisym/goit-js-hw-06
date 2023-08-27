@@ -11,7 +11,12 @@ function onSend(event) {
     if (email === "" || password === "") {
        return alert('All fields must be filled!');
     }
+
+    const userInfo = {
+        email: email,
+        password: password
+    }
     
-    console.log(`Email: ${email}, Password: ${password}`);
+    console.log(userInfo);
     form.reset();
 };

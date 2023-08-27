@@ -24,8 +24,6 @@ return `<li class="list-item">
 });
 
 return result.join('');
-
-console.log(result);
 }
 
 const list = document.querySelector('.gallery');
